@@ -9,12 +9,14 @@
 main {
     padding-top: 32px;
 }
+
 .main-section {
     border: 3px solid #1B6301;
     border-left: none;
     margin: 16px 0;
     width: 80%;
     background: #AEF0B7;
+    position: relative;
 }
 
 .main-section__link {
@@ -60,4 +62,15 @@ main {
     float: right;
     border-right: none;
     border-left: 3px solid #1B6301;
+}
+
+.plus__badge {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 20px;
+    color: white;
+    background: #ff5454;
+    padding: 8px;
+    font-size: 12px;
 }
