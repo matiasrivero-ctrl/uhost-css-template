@@ -1,4 +1,3 @@
-/* ID */
 #product-overview {
     background: url(./images/freedom.jpg) left 10% bottom 50%/cover no-repeat border-box;
     width: 100%;
@@ -7,13 +6,11 @@
     position: relative;
 }
 
-/* Classes */ 
 .section-title {
     color: #1C9E13;
     text-align: center;
 }
 
-/* Inheritance */
 #product-overview h1 {
     color: white;
     font-family: 'Anton', sans-serif;
