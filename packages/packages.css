@@ -8,13 +8,13 @@
 }
 
 main {
-    padding-top: 32px;
+    padding-top: 2rem;
 }
 
 .main-section {
     border: 3px solid #1B6301;
     border-left: none;
-    margin: 16px 0;
+    margin: 1rem 0;
     width: 80%;
     background: #AEF0B7;
     position: relative;
@@ -23,25 +23,25 @@ main {
 .main-section__link {
     color: #000;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1rem;
     padding: 0;
 }
 
 .main-section__link h1 {
-    margin-left: 30px;
+    margin-left: 1.5rem;
 }
 
 .main-section__link h2 {
     color: #AFAFAF;
-    margin-left: 30px;
+    margin-left: 1.5rem;
 }
 
 .main-section__link p {
     border: 1px solid #000;
     background: #fff;
-    padding: 15px 10px;
+    padding: 0.9rem 0.5rem;
     width: calc(90% + 30px);
-    margin-left: 30px;
+    margin-left: 1.5rem;
 }
 
 .premium,
@@ -69,9 +69,9 @@ main {
     position: absolute;
     right: 0;
     top: 0;
-    margin: 20px;
+    margin: 1.2rem;
     color: white;
     background: #ff5454;
-    padding: 8px;
-    font-size: 12px;
+    padding: 0.8rem;
+    font-size: 0.8rem;
 }
