@@ -200,6 +200,13 @@ main {
     outline: none;
 }
 
+.button[disabled] {
+    cursor: not-allowed;
+    border: rgb(179, 176, 176);
+    background: #ccc;
+    color: rgb(179, 176, 176);
+}
+
 .open {
     display: block !important;
 }
