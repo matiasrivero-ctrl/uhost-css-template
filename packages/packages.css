@@ -49,6 +49,7 @@ main {
     padding: 0.9rem 0.5rem;
     width: calc(90% - 30px);
     margin-left: 1.5rem;
+    font-family: "Roboto", sans-serif;
 }
 
 .premium,
