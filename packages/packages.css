@@ -85,6 +85,10 @@ main {
     border-left: 3px solid #1B6301;
 }
 
+#plus {
+    overflow: hidden;
+}
+
 .plus__badge {
     position: absolute;
     right: 0;
@@ -94,6 +98,10 @@ main {
     background: #ff5454;
     padding: 0.8rem;
     font-size: 0.8rem;
+    transform: rotateZ(45deg) translateX(3.5rem) translateY(-2.6rem);
+    transform-origin: center;
+    width: 13rem;
+    text-align: center;
 }
 
 @media (min-width: 40rem) {
