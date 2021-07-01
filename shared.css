@@ -225,6 +225,8 @@ main {
 
 .open {
     display: block !important;
+    transform: translateY(0) !important;
+    opacity: 1 !important;
 }
 
 @media (min-width: 40rem) {

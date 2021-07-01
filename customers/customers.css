@@ -12,13 +12,16 @@ main {
 } */
 
 .testimonial__image-container {
-  width: 100%;
+  width: 60%;
   max-width: 40rem;
+  transform: skew(20deg);
+  overflow: hidden;
 }
 
 .testimonial__image {
   width: 100%;
   display: block;
+  transform: skew(-20deg) scale(1.4);
 }
 
 .testimonial__info {

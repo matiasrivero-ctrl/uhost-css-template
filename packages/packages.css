@@ -98,7 +98,7 @@ main {
     background: #ff5454;
     padding: 0.8rem;
     font-size: 0.8rem;
-    transform: rotateZ(45deg) translateX(3.5rem) translateY(-2.6rem);
+    transform: rotate(45deg) translate(3.5rem, -2.6rem);
     transform-origin: center;
     width: 13rem;
     text-align: center;
