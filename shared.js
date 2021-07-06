@@ -10,7 +10,10 @@ for (let button of gettingPlanButtons) {
         /* backdrop.style.display = 'block';
         modal.style.display = 'block'; */
         modal.classList.add('open');
-        backdrop.classList.add('open');
+        backdrop.style.display = "block";
+        setTimeout(function() {
+            backdrop.classList.add('open');
+        }, 200);
     })
 }
 
@@ -27,11 +30,18 @@ function closeModal() {
     if(modal){         
         modal.classList.remove('open');
     }
-
+    
     backdrop.classList.remove('open');
+
+    setTimeout(function() {
+        backdrop.style.display = 'none';
+    }, 200);
 }
 
 toggleButton.addEventListener('click', function(){
     mobileNav.classList.add('open');
-    backdrop.classList.add('open');
+    backdrop.style.display = 'block';
+    setTimeout(function() {
+        backdrop.classList.add('open');
+    }, 200);
 });
